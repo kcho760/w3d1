@@ -56,6 +56,12 @@ class Array
         end
         new_arr
     end
+
+    def my_zip(*arg)
+        i = 0
+        while i < arg.length + 1
+            new_arr = []
+
 end
 
 test = Proc.new{|ele| puts ele}
